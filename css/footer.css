@@ -42,7 +42,6 @@
 }
 .footer-socials:last-child {
   flex: 0 0 auto;
-  /* margin-left: 120px; */
 }
 
 .media-list {
@@ -94,4 +93,11 @@
   height: 24px;
   fill: #f4f4fd;
   flex-shrink: 0;
+}
+.footer-subscribe-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
 }
