@@ -100,4 +100,43 @@
   justify-content: center;
   flex-direction: column;
   gap: 16px;
+  max-width: 453px;
+  max-height: 80px;
+  margin-left: 83px;
+}
+input {
+  font-family: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  /* gap: 0px; */
+  margin-top: 16px;
+  width: 264px;
+  height: 40px;
+}
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.send-btn {
+  fill: #ffffff;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 16px;
+  display: flex;
+  border-radius: 4px;
+  padding: 8px 24px;
+  height: 40px;
+  max-width: 165px;
+  background-color: #4d5ae5;
 }
