@@ -103,16 +103,7 @@
   justify-content: center;
   gap: 8px;
 } */
-.footer-subscribe-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-  max-width: 453px;
-  max-height: 80px;
-  margin-left: 83px;
-}
+
 .input-text {
   font-family: inherit;
   border: 1px solid;
