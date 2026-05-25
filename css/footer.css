@@ -129,7 +129,8 @@
   font-size: 12px;
 
   /* line-height: 14px; */
-  line-height: 1.16667;
+  background-color: transparent;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
   outline: none;
@@ -137,6 +138,9 @@
 }
 .subscribe-input:focus {
   border-color: #31d0aa;
+}
+.subscribe-form input::placeholder {
+  color: #ffffff;
 }
 .send-btn {
   fill: #ffffff;
@@ -150,6 +154,7 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .send-btn:hover,
